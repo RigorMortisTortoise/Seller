@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.313" height="44.301" viewBox="0 0 44.313 44.301">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #0082ff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="legal-certificate" transform="translate(0.763 0.75)">
+    <circle id="Ellipse_26" data-name="Ellipse 26" class="cls-1" cx="5.507" cy="5.507" r="5.507" transform="translate(31.037 0.75)"/>
+    <path id="Path_3178" data-name="Path 3178" class="cls-1" d="M8.205,1.242a.9.9,0,0,1,1.6,0L11.667,4.99a.89.89,0,0,0,.67.483l4.172.6a.888.888,0,0,1,.716.6.87.87,0,0,1-.222.9l-3.029,2.937a.874.874,0,0,0-.253.773l.714,4.139a.872.872,0,0,1-.356.859.9.9,0,0,1-.938.062L9.422,14.4a.892.892,0,0,0-.833,0L4.876,16.339a.9.9,0,0,1-.938-.062.872.872,0,0,1-.356-.859L4.3,11.279a.874.874,0,0,0-.253-.773L1.021,7.569a.87.87,0,0,1-.222-.9.887.887,0,0,1,.716-.6l4.17-.6a.89.89,0,0,0,.659-.483Z" transform="translate(0.004 0)"/>
+    <line id="Line_264" data-name="Line 264" class="cls-1" x1="19.274" transform="translate(17.27 0.75)"/>
+    <path id="Path_3179" data-name="Path 3179" class="cls-1" d="M31.037,3.75V31.284a8.26,8.26,0,0,1-8.26,8.26H.75a8.26,8.26,0,0,0,8.26-8.26V20.27" transform="translate(0 2.507)"/>
+    <line id="Line_265" data-name="Line 265" class="cls-1" x2="11.014" transform="translate(14.517 31.037)"/>
+    <line id="Line_266" data-name="Line 266" class="cls-1" x2="11.014" transform="translate(14.517 25.53)"/>
+    <line id="Line_267" data-name="Line 267" class="cls-1" x2="5.507" transform="translate(20.024 20.024)"/>
+    <line id="Line_268" data-name="Line 268" class="cls-1" x2="5.507" transform="translate(20.024 14.517)"/>
+  </g>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="527" height="401" viewBox="0 0 527 401">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #acbccb;
+      }
+
+      .cls-3 {
+        fill: #0c5db8;
+        font-size: 21px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        stroke: #0c5db8;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: #3a4352;
+      }
+
+      .cls-6 {
+        font-size: 16px;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: OpenSans, Open Sans;
+      }
+
+      .cls-7 {
+        font-size: 15px;
+      }
+
+      .cls-8 {
+        font-size: 13px;
+        font-family: OpenSans-Light, Open Sans;
+        font-weight: 300;
+      }
+
+      .cls-9 {
+        filter: url(#Rectangle_58);
+      }
+    </style>
+    <filter id="Rectangle_58" x="0" y="0" width="527" height="401" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0185fe"/>
+      <stop offset="1" stop-color="#0c5db8"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95" data-name="Group 95" transform="translate(-679.603 -1581)">
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 679.6, 1581)">
+      <rect id="Rectangle_58-2" data-name="Rectangle 58" class="cls-1" width="509" height="383" rx="6" transform="translate(9 6)"/>
+    </g>
+    <line id="Line_41" data-name="Line 41" class="cls-2" x2="401.352" transform="translate(772.588 1921.793)"/>
+    <line id="Line_42" data-name="Line 42" class="cls-2" x2="401.352" transform="translate(772.588 1889.066)"/>
+    <line id="Line_43" data-name="Line 43" class="cls-2" x2="401.352" transform="translate(772.588 1853.262)"/>
+    <line id="Line_44" data-name="Line 44" class="cls-2" x2="401.352" transform="translate(772.588 1818.892)"/>
+    <line id="Line_45" data-name="Line 45" class="cls-2" x2="401.352" transform="translate(772.588 1787.815)"/>
+    <line id="Line_46" data-name="Line 46" class="cls-2" x2="401.352" transform="translate(772.588 1756.43)"/>
+    <line id="Line_47" data-name="Line 47" class="cls-2" x2="401.352" transform="translate(772.588 1724.161)"/>
+    <line id="Line_48" data-name="Line 48" class="cls-2" x2="401.352" transform="translate(772.588 1692.033)"/>
+    <line id="Line_49" data-name="Line 49" class="cls-2" x2="401.352" transform="translate(772.588 1660.787)"/>
+    <text id="EBITDA_in_millions_" data-name="EBITDA (in millions)" class="cls-3" transform="translate(711.603 1629)"><tspan x="0" y="0">EBITDA (in millions)</tspan></text>
+    <line id="Line_53" data-name="Line 53" class="cls-4" x2="462.607" transform="translate(712.44 1641.398)"/>
+    <rect id="Rectangle_59" data-name="Rectangle 59" class="cls-5" width="47" height="267" transform="translate(1092.603 1655)"/>
+    <text id="FY15" class="cls-6" transform="translate(816.603 1944)"><tspan x="-17.758" y="0">FY15</tspan></text>
+    <text id="FY16" class="cls-6" transform="translate(891.603 1944)"><tspan x="-17.758" y="0">FY16</tspan></text>
+    <text id="FY17" class="cls-7" transform="translate(964.603 1943)"><tspan x="-16.648" y="0">FY17</tspan></text>
+    <text id="FY18" class="cls-6" transform="translate(1040.603 1944)"><tspan x="-17.758" y="0">FY18</tspan></text>
+    <text id="FY19" class="cls-6" transform="translate(1115.603 1944)"><tspan x="-17.758" y="0">FY19</tspan></text>
+    <text id="_0" data-name="0" class="cls-8" transform="translate(735.603 1926)"><tspan x="-3.71" y="0">0</tspan></text>
+    <text id="_100" data-name="100" class="cls-8" transform="translate(735.603 1893)"><tspan x="-11.131" y="0">100</tspan></text>
+    <text id="_200" data-name="200" class="cls-8" transform="translate(735.603 1858)"><tspan x="-11.131" y="0">200</tspan></text>
+    <text id="_400" data-name="400" class="cls-8" transform="translate(735.603 1792)"><tspan x="-11.131" y="0">400</tspan></text>
+    <text id="_500" data-name="500" class="cls-8" transform="translate(735.603 1760)"><tspan x="-11.131" y="0">500</tspan></text>
+    <text id="_600" data-name="600" class="cls-8" transform="translate(735.603 1728)"><tspan x="-11.131" y="0">600</tspan></text>
+    <text id="_700" data-name="700" class="cls-8" transform="translate(747.603 1697)"><tspan x="-22.261" y="0">700</tspan></text>
+    <text id="_800" data-name="800" class="cls-8" transform="translate(747.603 1665)"><tspan x="-22.261" y="0">800</tspan></text>
+    <text id="_300" data-name="300" class="cls-8" transform="translate(735.603 1824)"><tspan x="-11.131" y="0">300</tspan></text>
+    <rect id="Rectangle_60" data-name="Rectangle 60" class="cls-5" width="46" height="214" transform="translate(1017.603 1708)"/>
+    <rect id="Rectangle_61" data-name="Rectangle 61" class="cls-5" width="47" height="176" transform="translate(940.603 1747)"/>
+    <rect id="Rectangle_62" data-name="Rectangle 62" class="cls-5" width="47" height="147" transform="translate(868.603 1775)"/>
+    <rect id="Rectangle_63" data-name="Rectangle 63" class="cls-5" width="47" height="127" transform="translate(793.603 1795)"/>
+  </g>
+</svg>

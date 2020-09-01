@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.739" height="46.256" viewBox="0 0 43.739 46.256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #0185fe;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="people-man-1" transform="translate(1.5 1.5)">
+    <ellipse id="Ellipse_18" data-name="Ellipse 18" class="cls-1" cx="10.968" cy="10.093" rx="10.968" ry="10.093" transform="translate(9.401)"/>
+    <path id="Path_60" data-name="Path 60" class="cls-1" d="M7.476,3.334A19,19,0,0,0,20.584,8.459a19.559,19.559,0,0,0,7.208-1.367" transform="translate(3.442 1.634)"/>
+    <path id="Path_61" data-name="Path 61" class="cls-1" d="M2.25,32.244C2.25,21.892,11.37,13.5,22.62,13.5s20.37,8.392,20.37,18.744" transform="translate(-2.25 11.012)"/>
+    <path id="Path_62" data-name="Path 62" class="cls-1" d="M8.25,14.249v1.444c0,3.982,3.508,7.209,7.834,7.209s7.834-3.228,7.834-7.209V14.249" transform="translate(4.285 11.703)"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.422" height="44.422" viewBox="0 0 44.422 44.422">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #0185fe;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="performance-increase-1" transform="translate(0.75 1.371)">
+    <line id="Line_261" data-name="Line 261" class="cls-1" x2="40.801" transform="translate(0.75 41.551)"/>
+    <path id="Path_3168" data-name="Path 3168" class="cls-1" d="M9.05,17.25H3.61a1.36,1.36,0,0,0-1.36,1.36v9.52h8.16V18.61A1.36,1.36,0,0,0,9.05,17.25Z" transform="translate(1.22 13.421)"/>
+    <path id="Path_3169" data-name="Path 3169" class="cls-1" d="M16.55,9.75H11.11a1.36,1.36,0,0,0-1.36,1.36V34.23h8.16V11.11A1.36,1.36,0,0,0,16.55,9.75Z" transform="translate(7.32 7.32)"/>
+    <path id="Path_3170" data-name="Path 3170" class="cls-1" d="M24.05,12.75H18.61a1.36,1.36,0,0,0-1.36,1.36V31.79h8.16V14.11A1.36,1.36,0,0,0,24.05,12.75Z" transform="translate(13.421 9.76)"/>
+    <path id="Path_3171" data-name="Path 3171" class="cls-1" d="M26.91,8.91V.75H18.75" transform="translate(14.641 0)"/>
+    <path id="Path_3172" data-name="Path 3172" class="cls-1" d="M40.331.75,31.173,9.908a4.078,4.078,0,0,1-4.057,1.023L16.764,8.163A4.082,4.082,0,0,0,12.826,9.22L2.25,19.8" transform="translate(1.22 0)"/>
+  </g>
+</svg>

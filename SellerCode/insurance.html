@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+                #main {
+    margin-top: -20px;
+}    
+        .inner-wrap .mbt {
+	max-width: 1200px;
+	margin: 40px auto 0 auto;
+}
+.inner-wrap .container {
+	width: 100% !important;
+	padding: 0;
+}
+.inner-wrap .sectionBlock {
+	border: none;
+	border-radius: 0;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.inner-wrap .sectionContent {
+	padding: 0;
+}
+.inner-wrap .clear {
+	display: none;
+}
+header {
+	font-size: 13px;
+}
+.content-center {
+  width: 75%;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-top: 80px; }
+
+.info-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 80px;
+  padding: 24px;
+  border-radius: 6px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08); }
+  .info-flex h2 {
+    color: #3A4352; }
+  .info-flex p {
+    color: #687386;
+    line-height: 2em;
+    max-width: 800px;
+    margin: auto; }
+
+#insurance {
+  background-image: url(content/yellow-insurance.png);
+  background-size: 100%;
+  background-position: bottom;
+  transition-timing-function: ease-in-out;
+  transition-duration: .3s; }
+
+#fleet {
+  background-image: url(content/fleet.jpg); }
+
+#finance {
+  background-image: url(content/finance-1.png);
+  background-position: bottom;
+  background-size: 100%; }
+
+#rental {
+  background-image: url(content/rental-2.png);
+  background-size: 100%; }
+
+#dealer {
+  background-image: url(content/dealer.jpg);
+  background-position: 0 150px;
+  background-size: 100%; }
+
+#sellerapp {
+  background-image: url(content/sellers_devices.png);
+  background-position: 0 250px;
+  background-size: 90%;
+  background-position-x: center; }
+
+.hub-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 85%;
+  margin: auto;
+  margin-top: 80px; }
+  .hub-tiles .hub-item {
+    width: 45%;
+    height: 540px;
+    margin: auto;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+    padding: 24px;
+    align-content: center; }
+    .hub-tiles .hub-item h1 {
+      text-align: center;
+      margin-top: 16px;
+      color: #3A4352;
+      font-weight: 600 !important;
+      font-size: 24px; }
+    .hub-tiles .hub-item p {
+      text-align: center;
+      margin-bottom: 24px; }
+    .hub-tiles .hub-item .learn-more {
+      justify-content: center;
+      text-align: center;
+      width: 25%;
+      margin: auto;
+      background-color: #0D5DB8;
+      padding: 8px;
+      border-radius: 6px;
+      position: relative;
+      animation-timing-function: ease-in-out;
+      animation-duration: .4s;
+      color: white;
+      font-weight: 600;
+      text-decoration: none; }
+      .hub-tiles .hub-item .learn-more:hover {
+        opacity: 92%; }
+      .hub-tiles .hub-item .learn-more a {
+        text-align: center !important;
+        color: white !important;
+        font-weight: 600 !important; }
+
+.seller-hero {
+  height: 350px;
+  width: 100%;
+  background-image: url(content/seller-hero.svg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .seller-hero h1 {
+    font-size: 32px;
+    line-height: 2em;
+    color: white;
+    font-weight: 700;
+    padding-top: 120px;
+    margin-left: 80px; }
+  .seller-hero h2 {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    margin-left: 80px; }
+
+.insurance-hero {
+  height: 350px;
+  width: 100%;
+  background-image: url(content/insurance-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+        
+  .insurance-hero h1 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    padding-top: 120px;
+    margin-left: 80px; }
+  .insurance-hero h2 {
+    color: white;
+    font-weight: 300;
+    margin-left: 80px;
+    margin-top: 0;
+    }
+
+.fleet-hero {
+  height: 350px;
+  width: 100%;
+  background-image: url(content/fleet.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 600px -250px !important;}
+        
+  .fleet-hero h1 {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    padding-top: 120px;
+    margin-left: 80px; }
+  .fleet-hero h2 {
+    color: white;
+    font-weight: 300;
+    margin-left: 80px; }
+        
+.finance-hero {
+  height: 350px;
+  width: 100%;
+  background-image: url(content/hubtiles-finance.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;}
+        
+  .finance-hero h1 {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    padding-top: 120px;
+    margin-left: 80px; }
+  .finance-hero h2 {
+    color: white;
+    font-weight: 300;
+    margin-left: 80px; }
+        
+.rental-hero {
+  height: 350px;
+  width: 100%;
+  background-image: url(content/hubtiles-rental.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;}
+        
+  .rental-hero h1 {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    padding-top: 120px;
+    margin-left: 80px; }
+  .rental-hero h2 {
+    color: white;
+    font-weight: 300;
+    margin-left: 80px; }
+        
+.dealer-hero {
+  height: 350px;
+  width: 100%;
+  background-image: url(content/hubtiles-dealer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;}
+        
+  .dealer-hero h1 {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    padding-top: 120px;
+    margin-left: 80px; }
+  .dealer-hero h2 {
+    color: white;
+    font-weight: 300;
+    margin-left: 80px; }
+        
+.seller-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  background-color: #0D5DB8; }
+  .seller-navbar h3 {
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    width: 15%;
+    vertical-align: middle;
+    margin: 8px !important;
+    text-align: center; }
+  .seller-navbar a {
+    color: white; }
+
+.seller-gradient {
+  background: #0d5db8;
+  background: linear-gradient(90deg, #0d5db8 0%, rgba(13, 93, 184, 0.7525385154) 50%, rgba(13, 93, 184, 0.3995973389) 60%, rgba(13, 93, 184, 0.2035189076) 80%, rgba(229, 243, 254, 0) 100%);
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  .insurance-flex h1 {
+    line-height: 1.6em;
+    margin-bottom: 24px; }
+  .insurance-flex p {
+    color: #687386;
+    line-height: 2em;
+    font-size: 15px !important; }
+  .insurance-flex li {
+    color: #0D5DB8;
+    line-height: 2em;
+    padding-left: 16px; }
+
+.insurance-item-one {
+  flex: 1;
+  width: 50%;
+  max-width: 500px; }
+
+.insurance-item-two {
+  flex: 1;
+  width: 50%; }
+
+
+  .tile-item img {
+    height: 200px;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px 6px 0 0;
+    border: none; }
+  .tile-item h2 {
+    margin: 24px 0 24px 24px;
+    color: #3A4352 !important;
+    font-weight: 600 !important; }
+  .tile-item ul {
+    margin-left: 32px;
+    margin-bottom: 24px; }
+  .tile-item li {
+    padding: 0 24px 0 16px;
+    line-height: 2em;
+    color: #687386; }
+
+.card-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: auto; }
+  .card-flex h2 {
+    margin-left: 32px;
+    color: #3A4352 !important;
+    font-weight: 500 !important; }
+  .card-flex .item {
+    width: 45%;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+    padding-bottom: 32px; }
+    .card-flex .item img {
+      margin-left: 32px;
+      margin-top: 40px;
+      margin: 40px 0 0 32px; }
+    .card-flex .item ul {
+      margin-left: 40px;
+      padding-right: 32px; }
+    .card-flex .item li {
+      line-height: 2em; }
+    .card-flex .item a {
+      font-weight: 600 !important; }
+        
+
+@media only screen and (max-width: 1024px) {
+  .insurance-flex {
+    flex-direction: column-reverse;
+    align-items: center; }
+
+  .seller-navbar h3 {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    padding: 8px 24px 4px 24px;
+    vertical-align: middle; }
+
+  .hub-tiles {
+    flex-direction: column; }
+    .hub-tiles .hub-item {
+      width: 85%;
+      margin: auto;
+      margin-bottom: 24px; } 
+    
+    .insurance-hero {
+        background-position: 50px -50px;
+    }
+        }
+@media only screen and (max-width: 768px) {
+       .tile-item ul {
+        margin-left: 8px;
+    }
+    
+    .tile-item li {
+        padding-left: 8px;
+    }
+        #main {
+    margin-top: 0;
+}  
+    
+    .seller-navbar {
+    flex-direction: column; }
+    .seller-navbar h3 {
+      width: 100%;
+      font-weight: 600;
+      padding: 0; }
+
+  .tile-flex {
+    flex-direction: column; }
+    .tile-flex .tile-item {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 24px; }
+
+  .card-flex {
+    flex-direction: column; }
+    .card-flex .item {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 24px; }
+
+  .insurance-flex {
+    margin-top: 24px; }
+
+  .insurance-item-one {
+    width: 85%;
+    margin: auto; }
+
+  .insurance-item-two {
+    width: 75%;
+    margin: auto; }
+
+  .insurance-hero {
+    background-position: center right; }
+    .insurance-hero h1 {
+      text-align: center;
+      margin: 0; }
+    .insurance-hero h2 {
+      text-align: center;
+      margin: 0;
+      width: 75%;
+      margin: auto; }
+
+  .seller-gradient {
+    background: #0d5db8;
+    background: linear-gradient(180deg, #0d5db8 0%, rgba(13, 93, 184, 0.7525385154) 50%, rgba(13, 93, 184, 0.3995973389) 60%, rgba(13, 93, 184, 0.2035189076) 80%, rgba(229, 243, 254, 0) 100%); }
+
+  .info-flex {
+    width: 72%; } }
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+  .hub-tiles .hub-item {
+    height: 500px; }
+    .hub-tiles .hub-item .learn-more {
+      width: 40%; }
+
+  .seller-hero h1 {
+    padding-top: 120px;
+    margin-left: 0;
+    text-align: center; }
+  .seller-hero h2 {
+    margin-left: 0;
+    text-align: center; }
+    
+      .fleet-hero h1 {
+    padding-top: 120px;
+    margin-left: 0;
+    text-align: center; }
+  .fleet-hero h2 {
+    margin-left: 0;
+    text-align: center; }
+    
+    .finance-hero h1 {
+    padding-top: 120px;
+    margin-left: 0;
+    text-align: center; }
+  .finance-hero h2 {
+    margin-left: 0;
+    text-align: center; }
+    
+        .rental-hero h1 {
+    padding-top: 120px;
+    margin-left: 0;
+    text-align: center; }
+  .rental-hero h2 {
+    margin-left: 0;
+    text-align: center; }
+    
+        .dealer-hero h1 {
+    padding-top: 120px;
+    margin-left: 0;
+    text-align: center; }
+  .dealer-hero h2 {
+    margin-left: 0;
+    text-align: center; }
+        
+        .fleet-hero {
+            background-size: cover;
+            background-position: center;
+        }
+        }
+@media only screen and (max-width: 500px) {
+  .hub-tiles .hub-item {
+    height: 400px; } }
+        
+            .card-flex p {
+            margin-left: 32px;
+            width: 90%;
+            color: #687386;
+            line-height: 2em;
+            
+        }  
+    
+    .card-flex .item li {
+        color: #687386;
+    }
+        
+    .card-flex .item a {
+            margin-left: 0 !important;
+        }
+        
+        /*
+ CSS for the main interaction
+*/
+.accordion > input[type="checkbox"] {
+  display: none;
+}
+
+.accordion .content {
+  overflow-y: hidden;
+  height: 0;
+  transition: 0.25s ease-in;
+  width: 77%;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+  height: auto;
+  overflow: visible;
+  width: 77%;
+  max-width: 1125px;
+  margin: auto;
+ 
+}
+
+.accordion label {
+  display: flex;
+  
+}
+        
+.accordion {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 45%;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+  border-radius: 0 0 6px 6px;
+  border-top: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.accordion .handle {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #3A4351;
+ width: 550px;
+}
+
+.accordion label {
+  color: #3A4351;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 8px;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  justify-content: space-between;
+  margin: auto;
+}
+.accordion label:hover,
+.accordion label:focus {
+  background: #E7F5FF;
+
+}
+
+.accordion .handle label:before {
+  font-family: 'fontawesome';
+  content: "\f055";
+  margin-right: 10px;
+  font-size: 24px;
+  line-height: 60px;
+  vertical-align: middle;
+  color: #0185FE;
+  transition-timing-function: ease;
+  transition-duration: .3s;
+  order: 2;
+ 
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+  transform: rotate(45deg);
+}
+
+.accordion h3 {
+  order: 1; 
+  margin-top: 16px;
+  margin-left: 16px;
+        }
+        .accordion h2 {
+            color: #3A4352;
+            font-weight: 300;
+        }
+        .accordion h3 img {
+            width: 32px;
+            margin-right: 24px;
+        }
+        .accordion p {
+            color: #687386;
+            max-width: 700px;
+            line-height: 2em;
+        }
+        .accordion ul {
+            color: #687386;
+            line-height: 2em;
+        }
+        .expand {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1180px;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+        
+        /* NEW CSS */
+        
+        .tile-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-top: 80px;
+  background-color: #f4f4f4;}
+        
+        .tile-item {
+  background-color: white;
+  border-radius: 6px;
+  width: 40%;
+  margin-left: 24px;
+  margin-right: 24px;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px; }
+        
+        
+        .insurance-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 80px; }
+        
+        .insurance-flex h1 {
+            margin-top: 0;
+        }
+
+        
+        .colorblock {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: 100%;
+            line-height: 2em;
+        }
+        
+        .colorblock a {
+            font-weight: 700;
+            color: #0185FE;
+        }
+        
+        .color-item {
+            flex: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 50%;
+            padding: 56px;
+            min-height: 350px;
+        }
+        
+         .colorblock p {
+            color: #1d1d1d;
+            max-width: 500px;
+        }
+        
+        .colorblock ul {
+            color: #1d1d1d;
+            max-width: 500px;
+        }
+        
+        .colorblock .dark-blue {
+            background-color: #06335C;
+            color: white;
+            order: 1;
+        }
+        
+        .dark-blue h1{
+            color: white !important;
+        }
+        
+        .dark-blue p {
+            color: white !important;
+        }
+        
+         .dark-blue li {
+            color: white !important;
+        }
+        
+        .colorblock .light-blue {
+            background-color: #E5F3FE;
+            order: 2;
+            
+        }
+        
+        .colorblock .blue {
+            background-color: #B6DEFD;
+            order: 3;
+        }
+        
+        .colorblock .grey {
+            background-color: #C3D5E5;
+            order: 4;
+        }
+        
+        .highlights {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #E5F3FE;
+            height: 120px;
+            margin-top: 40px;
+        }
+        
+        .highlights-background {
+            background-color: #E5F3FE;
+        }
+        
+        .highlights .item {
+            flex: 1;
+        }
+        
+        .highlights h1 {
+            color: #0185FE;
+            font-size: 32px;
+        }
+        
+        .highlights p {
+            color: #687386;
+            text-transform: uppercase;
+        }
+        
+        .center {
+            width: 75%;
+            margin: auto;
+        }
+
+        
+           .tile-flex p {
+            margin-left: 32px;
+            margin-bottom: 24px;
+            width: 90%;
+            color: #687386;
+            line-height: 2em;
+        }
+        
+        
+                @media only screen and (max-width: 840px) {
+            .insurance-flex {
+                flex-direction: column-reverse;
+            }
+                    
+                    .insurance-item-one {
+                        order: 2;
+                    }
+            
+            .highlights {
+             flex-direction: column;
+             height: auto;
+                        
+                    }        
+                    
+            .hightlights .item {
+                display: none;
+            }
+            
+            .color-item {
+                flex-basis: 100%;
+                padding: 32px;
+            }
+        }
+        
+        @media only screen and (max-width: 450px) {
+            .color-item {
+                padding: 0;
+                padding-bottom: 24px;
+            }
+        }
+/*# sourceMappingURL=seller.css.map */
+
+    </style>
+
+    </head>
+    <body>
+    <div class="insurance-hero">
+        <div class="seller-gradient">
+        <h1>Copart Makes Total Loss Vehicles Simple</h1>
+        <h2>Copart Serves Insurance Companies Across the World</h2>
+        </div>
+        </div>
+      <div style="background-color: #0D5DB8;">
+        <div class="seller-navbar">
+             <h3><a href="/content/us/en/landing-page/seller/insurance">Insurance</a></h3>
+            <h3><a href="/content/us/en/landing-page/seller/dealer">Dealer</a></h3>
+            <h3><a href="/content/us/en/landing-page/seller/rental">Rental</a></h3>
+            <h3><a href="/content/us/en/landing-page/seller/fleet">Fleet</a></h3>
+            <h3><a href="/content/us/en/landing-page/seller/finance">Finance</a></h3>
+            <h3><a href="https://www.copart.com/content/us/en/landing-page/seller/sellerresources">Seller Resources</a></h3>
+            <h3><a href="https://www.copart.com/content/us/en/landing-page/seller-mobile" target="_blank">Copart Seller App</a></h3>
+            </div>
+            </div>
+        
+        <div class="insurance-flex">
+        <div class="insurance-item-one">
+            <h1>Why Insurance Companies Choose Copart</h1>
+            <p>If you’re looking for a convenient way to sell your insurance cars, you’re in the right place. Copart has extremely fast cycle times which means we can help you process however many cars you have quickly. A partnership with us is a partnership built on confidence and results.<br><br>
+
+No matter the condition of your insurance vehicles, Copart has the global buyer base to help you find the right home for them. From First Notice of Loss (FNOL) to vehicle sale date, Copart partners with you to maximize returns. With central title processing, catastrophe response, vehicle logistics and storage, to auction and payment, Copart takes the hassle out of selling your total loss vehicles. That's right—Copart handles the titles for you, so you can focus on your business.
+    
+</p><br>
+    
+    
+        </div>
+            
+             <div class="insurance-item-one">
+            <img src="content/form-pic.png" style="width: 90%;">
+        </div>
+    </div>
+        <div class="highlights-background">
+        <div class="highlights"> 
+        <div class="item">
+            <h1>100%</h1>
+            <p>online auctions since 2003</p>
+            </div>
+            
+            <div class="item">
+            <h1>750,000+</h1>
+                <p>Members</p>
+            </div>
+            
+            <div class="item">
+            <h1>60%</h1>
+                <p>Same Day Vehicle Pickup</p>
+            </div>
+        </div>
+        </div>
+        
+<div class="tile-flex">
+        <div class="tile-item">
+        <img src="content/states-dallas.jpg">
+        <h2>Capacity</h2>
+        <ul>
+            <li><a href="https://www.copart.com/locations/">170 locations</a> in the U.S. means faster pickup (less than one day) and sales </li>
+            <li>8,500+ acres of land&mdash;we can handle any volume you have</li>
+            <li>We’ll take care of your vehicles so you can worry about other issues </li>
+            <li>250,000 storage capacity&mdash;we have the resources to handle your inventory</li>
+            <li>Strategic and ongoing land acquisitions</li>
+            <li>Copart buyer lounges – Dozens of lounges added every year to connect with buyers in new ways.</li>
+        </ul> 
+        </div>
+    
+    <div class="tile-item">
+        <img src="content/cat-pic.png">
+        <h2>Catastrophe Response</h2>
+        <ul>
+            <li>Rapid recovery&mdash;preservation of vehicle condition</li>
+            <li>Our efficient vehicle recovery also helps to expedite the auto claims process for insured individuals affected by disaster</li>
+            <li>Fast cycle times&mdash;efficient recovery, sell more quickly for more money</li>
+            <li>Process&mdash;Seller-specific procedures to aid sales process</li>
+            <li>Anticipation of (and response to) logistical concerns positions Copart as the leader in catastrophic response</li>
+            <li><a href="https://www.copart.com/content/us/en/landing-page/community-catastrophe-response">See our CAT efficiency in action.</a></li>
+        </ul> 
+        </div>
+    
+       <div class="tile-item">
+        <img src="content/titles-insurance.jpg" style="object-position: top;">
+        <h2>Titles</h2>
+           <p>Title Direct is a program that allows the insured and their lienholders to send title documentation directly to Copart, bypassing the seller. With Title Direct, Copart will handle your vehicle titling needs so your staff can focus on more important matters.<br><br>
+               
+               Title Procurement – Let Copart handle the title transfer process from beginning to end. We will handle lien holder determination, obtaining letters of guarantee and notifying insurance partners when documents have been received. We have hundreds of dedicated title-procurement personnel across multiple locations throughout the U.S.</p>
+        </div>
+            <div class="tile-item">
+        <img src="content/insurance-marketing-seller.jpg">
+        <h2>Marketing</h2>
+            <p>Take advantage of the industry leading marketing department with campaigns designed to maximize your returns. </p>
+        <ul>
+             <li>In-House, Full-Service</li>
+            <li>Custom and ongoing marketing campaigns</li>
+            <li>International marketing team with multi-language focus </li>
+            <li>Award Winning Creative Design</li>
+            <li>Data Driven Decision Making</li>
+        </ul> 
+        </div>
+    </div>
+        <!--
+        <div class="card-flex">
+        <div class="item">
+            <img src="content/people-man-1.svg">
+            <h2>Buyer Base</h2>
+            <p>We know your number one goal is to reduce cycle times and maximize return on your inventory. With a worldwide audience, we can help with just that. More Members means more bids on your vehicles and higher returns. </p>
+            <ul>
+            <li>750,000 Members worldwide</li>
+            <li>Buyers in 140+ countries&mdash;your car finds a market</li>
+                <li>Members have convenient access to <a href="https://www.copart.com/brokersmarketmakers/1/">brokers</a></li>
+            </ul>
+        </div>
+            
+              <div class="item">
+            <img src="content/vb3-patent-icon.svg">
+            <h2>Patented VB3 Technology</h2>
+                  <p>Our industry-leading desktop and mobile device bidding platform helps maximize returns.</p>
+            <ul>
+                <li>Cars available to Buyers around the world means more eyes on your cars</li>
+                <li>Auction gamification encourages bid participation, drives up ASP and maximizes returns</li>
+                <li>VB3 across multiple devices enables Buyers to bid from anywhere, anytime&mdash;lower barriers</li>
+                <li><a href="https://www.copart.com/howVb3Works/">Want to see VB3 in action?</a></li>
+            </ul>
+        </div>
+        
+            
+                   <div class="item">
+            <img src="content/network-arrow.svg">
+            <h2>Innovative Website</h2>
+            <ul>
+            <li><a href="https://www.copart.com/vehicleAlerts/" style="margin-left: 0;">Vehicle Alerts</a></li>
+                <li><a href="https://www.copart.com/public/watchList/">Add to Watchlist</a></li>
+                <li><a href="https://www.copart.com/savedsearch/">Saved Searches</a></li>
+                <li><a href="https://www.copart.com/content/us/en/member-news/recommendations-engine-video">Recommendation Engine</a></li>
+                <li><a href="https://www.copart.com/vehicleFinder/?intcmp=web_insurance_seller_lp_vehiclefinder_en">Filters</a></li>
+                <li>More than one million <a href="https://www.copart.com/vehicleFinder/">vehicle searches</a> done each day</li>
+            </ul>
+        </div>
+            
+                   <div class="item">
+            <img src="content/performance-phone-increase.svg">
+            <h2>Seller Resources</h2>
+            <ul>
+                <li>Full suite of reporting tools within our <a href="https://seller.copart.com/login.html">Seller website</a> that keeps track of your inventory</li>
+            <li>Manage inventory on the go with the <a href="https://www.copart.com/en/Content/us/en/landing-page/seller-mobile?intcmp=web_footer_sellermobile_en">Seller App</a></li>
+                <li><a href="https://www.copart.com/content/us/en/landing-page/copart-transportation">Transportation App</a>&mdash;allows drivers to save time, and pick up more cars</li>
+            <li>ProQuote and Intelliseller: More accurate salvage value estimates than ever before</li>
+            </ul>
+        </div>
+        </div>
+        -->
+        <!--
+      <div class="expand">  
+<section class="accordion">
+  <input type="checkbox" name="collapse" id="handle1">
+  <h2 class="handle">
+      <label for="handle1"><h3><img src="content/people-man-1.svg">Buyer Base</h3></label>
+  </h2>
+  <div class="content">
+            <h2>Buyer Base</h2>
+            <p>We know your number one goal is to reduce cycle times and maximize return on your inventory. With a worldwide audience, we can help with just that. More Members means more bids on your vehicles and higher returns. </p>
+            <ul>
+            <li>750,000 Members worldwide</li>
+            <li>Buyers in 140+ countries&mdash;your car finds a market</li>
+                <li>Members have convenient access to <a href="https://www.copart.com/brokersmarketmakers/1/">brokers</a></li>
+            </ul>
+  </div>
+</section>
+<section class="accordion">
+  <input type="checkbox" name="collapse2" id="handle2">
+  <h2 class="handle">
+      <label for="handle2"><h3><img src="content/vb3-patent-icon.svg">Patented VB3 Technology</h3></label>
+  </h2>
+  <div class="content">
+            <h2>Patented VB3 Technology</h2>
+                  <p>Our industry-leading desktop and mobile device bidding platform helps maximize returns.</p>
+            <ul>
+                <li>Cars available to Buyers around the world means more eyes on your cars</li>
+                <li>Auction gamification encourages bid participation, drives up ASP and maximizes returns</li>
+                <li>VB3 across multiple devices enables Buyers to bid from anywhere, anytime&mdash;lower barriers</li>
+                <li><a href="https://www.copart.com/howVb3Works/">Want to see VB3 in action?</a></li>
+            </ul>
+  </div>
+</section>
+<section class="accordion">
+  <input type="checkbox" name="collapse2" id="handle3">
+  <h2 class="handle">
+      <label for="handle3"><h3><img src="content/network-arrow.svg">Innovative Website</h3></label>
+  </h2>
+  <div class="content">
+            <h2>Innovative Website</h2>
+            <ul>
+            <li><a href="https://www.copart.com/vehicleAlerts/" style="margin-left: 0;">Vehicle Alerts</a></li>
+                <li><a href="https://www.copart.com/public/watchList/">Add to Watchlist</a></li>
+                <li><a href="https://www.copart.com/savedsearch/">Saved Searches</a></li>
+                <li><a href="https://www.copart.com/content/us/en/member-news/recommendations-engine-video">Recommendation Engine</a></li>
+                <li><a href="https://www.copart.com/vehicleFinder/?intcmp=web_insurance_seller_lp_vehiclefinder_en">Filters</a></li>
+                <li>More than one million <a href="https://www.copart.com/vehicleFinder/">vehicle searches</a> done each day</li>
+            </ul>
+  </div>
+</section>
+        <section class="accordion">
+  <input type="checkbox" name="collapse2" id="handle4">
+  <h2 class="handle">
+      <label for="handle4"><h3><img src="content/performance-phone-increase.svg">Seller Resources</h3></label>
+  </h2>
+  <div class="content">
+      
+            <h2>Seller Resources</h2>
+            <ul>
+                <li>Full suite of reporting tools within our <a href="https://seller.copart.com/login.html">Seller website</a> that keeps track of your inventory</li>
+            <li>Manage inventory on the go with the <a href="https://www.copart.com/en/Content/us/en/landing-page/seller-mobile?intcmp=web_footer_sellermobile_en">Seller App</a></li>
+                <li><a href="https://www.copart.com/content/us/en/landing-page/copart-transportation">Transportation App</a>&mdash;allows drivers to save time, and pick up more cars</li>
+            <li>ProQuote and Intelliseller: More accurate salvage value estimates than ever before</li>
+            </ul>
+  </div>
+</section>
+        </div>
+ -->   
+        
+<div class="colorblock">
+    <div class="color-item dark-blue">
+        <div class="center">
+    <h1>Additional Copart Services</h1>
+    <p>We provide you with the resources to be constantly informed about your inventory, from B2B interfacing, sale prices, cycle times and paperwork needs.</p>
+    <ul>
+        <li>Full suite of reporting tools and inventory management within our <a href="https://seller.copart.com/login.html">Seller website</a></li>
+        <li>Manage inventory on the go with the <a href="https://www.copart.com/Content/us/en/landing-page/seller-mobile">Seller App</a></li>
+        <li><a href="https://www.copart.com/content/us/en/landing-page/copart-transportation">Transportation App</a>&mdash;allows drivers to save time, and pick up more cars</li>
+        <li>ProQuote and IntelliSeller: More accurate salvage value estimates than ever before</li>
+        <li>Personal Identifiable Information (PII) – Removing PII from vehicles that come to Copart before going through auction.</li>
+        <li>Total Loss Express – Save time and storage costs.</li>
+        <li>Loan Payoff – Copart partners with hundreds of loan providers to track loan payoff amounts through our systems</li>
+        <li><a href="https://www.copart.com/content/us/en/landing-page/seller/sellerresources">View all Seller Resources</a></li>
+        </ul>
+    </div>
+    </div>
+    
+    <div class="color-item light-blue">
+        <div class="center">
+    <h1>Patented VB3 Technology</h1>
+    <p>Our industry-leading desktop and mobile device bidding platform helps maximize returns.</p>
+    <ul>
+        <li>Cars available to Buyers around the world means more eyes on your cars</li>
+        <li>Auction gamification encourages bid participation, drives up ASP and maximizes returns</li>
+        <li>VB3 across multiple devices enables Buyers to bid from anywhere, anytime—lower barriers</li>
+        <li><a href="https://www.copart.com/howVb3Works/">Want to see VB3 in action?</a></li>
+        <li>Off-site sales – Sell inventory from anywhere</li>
+        <li>Night cap sales – More chances to sell your inventory</li>
+        </ul>
+    </div>
+    </div>
+    
+       <div class="color-item blue">
+           <div class="center">
+    <h1>Innovative Website</h1>
+    <p>Our technological advancements make the vehicle search process for our buyers easier than ever.</p>
+    <ul>
+        <li><a href="https://www.copart.com/vehicleAlerts/?intcmp=web_insurance_seller_lp_vehiclealerts_en">Vehicle Alerts</a></li>
+        <li><a href="https://www.copart.com/public/watchList/">Add to Watchlist</a></li>
+        <li><a href="https://www.copart.com/savedsearch/">Saved Searches</a></li>
+        <li><a href="https://www.copart.com/content/us/en/member-news/recommendations-engine-video">Recommendation Engine</a></li>
+        <li><a href="https://www.copart.com/vehicleFinder/?intcmp=web_insurance_seller_lp_vehiclefinder_en">Filters</a></li>
+        <li>More than one million <a href="https://www.copart.com/vehicleFinder/?intcmp=web_insurance_seller_lp_vehiclefinder_en">vehicle searches </a>done each day</li>
+        </ul>
+    </div>
+    </div>
+    
+    <div class="color-item grey">
+        <div class="center">
+    <h1>Buyer Base</h1>
+    <p>We know your number one goal is to reduce cycle times and maximize return on your inventory. With a worldwide audience, we can help with just that. More Members means more bids on your vehicles and higher returns.</p>
+        <ul>
+        <li>750,000 Members worldwide</li>
+        <li>Buyers in 140+ countries&mdash;your car finds a market</li>
+        <li>Members have convenient access to <a href="https://www.copart.com/brokersmarketmakers/1/">Brokers</a></li>
+        </ul>
+    </div>
+    </div>
+        </div>
+
+        
+        
+    </body>
+</html>

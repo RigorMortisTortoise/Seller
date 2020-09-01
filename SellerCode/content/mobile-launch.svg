@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.235" height="43.922" viewBox="0 0 41.235 43.922">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #0185fe;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="mobile-launch" transform="translate(0 1.371)">
+    <path id="Path_3160" data-name="Path 3160" class="cls-1" d="M25.68,30.3v5.373a5.373,5.373,0,0,1-5.373,5.373H6.873A5.373,5.373,0,0,1,1.5,35.677V6.123A5.373,5.373,0,0,1,6.873.75H20.307"/>
+    <path id="Path_3161" data-name="Path 3161" class="cls-1" d="M12.984,17.727C11.071,19.638,7.243,18.8,7.243,18.8S6.4,14.974,8.318,13.07a2.823,2.823,0,0,1,4.379.292,2.823,2.823,0,0,1,.287,4.365Z" transform="translate(4.398 9.031)"/>
+    <line id="Line_258" data-name="Line 258" class="cls-1" y1="1.918" x2="1.918" transform="translate(37.196 0.75)"/>
+    <path id="Path_3162" data-name="Path 3162" class="cls-1" d="M30.053,8.637l-.256-6.7-6.7-.256a6.043,6.043,0,0,0-4.958,2.778L10.852,16.519l4.36,4.363L27.273,13.6a6.05,6.05,0,0,0,2.78-4.96Z" transform="translate(7.399 0.734)"/>
+    <path id="Path_3163" data-name="Path 3163" class="cls-1" d="M16.15,7.708l-2-.948A2.817,2.817,0,0,0,11,7.127L8.176,9.952a.7.7,0,0,0-.1.776,1.148,1.148,0,0,0,.686.638l4.331,1.4" transform="translate(5.145 4.5)"/>
+    <path id="Path_3164" data-name="Path 3164" class="cls-1" d="M18.41,10.67l.867,2.047a2.816,2.816,0,0,1-.358,3.152L16.1,18.693a.7.7,0,0,1-.777.1,1.145,1.145,0,0,1-.636-.686l-1.4-4.333" transform="translate(9.324 7.848)"/>
+    <circle id="Ellipse_25" data-name="Ellipse 25" class="cls-1" cx="2.687" cy="2.687" r="2.687" transform="translate(27.864 6.627)"/>
+    <line id="Line_259" data-name="Line 259" class="cls-1" x2="24.18" transform="translate(1.5 34.334)"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.976" height="42.25" viewBox="0 0 64.976 42.25">
+  <g id="car-retro-1" transform="translate(0.751 -3)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="4.132" cy="4.132" r="4.132" transform="translate(46.11 35.487)" stroke-width="3" stroke="#0185fe" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="4.132" cy="4.132" r="4.132" transform="translate(8.926 35.487)" stroke-width="3" stroke="#0185fe" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path id="Path_310" data-name="Path 310" d="M54.373,39.618h4.22a4.132,4.132,0,0,0,4.132-4.132A12.469,12.469,0,0,0,50.242,23.092S44.044,4.5,27.518,4.5C15.123,4.5,1.808,11.887.753,35.393a4.049,4.049,0,0,0,4.041,4.225H8.926" transform="translate(0 0)" fill="none" stroke="#0185fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_4" data-name="Line 4" x1="28.921" transform="translate(17.189 39.618)" fill="none" stroke="#0185fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_5" data-name="Line 5" x1="47.469" transform="translate(2.772 23.092)" fill="none" stroke="#0185fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_6" data-name="Line 6" y1="18.523" transform="translate(25.54 4.569)" fill="none" stroke="#0185fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

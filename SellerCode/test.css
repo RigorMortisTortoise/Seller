@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'Usual', sans-serif;
+    font-size: 36px;
+    margin: 0 0 24px 0;
+    font-weight: 700;
+    color: #3A4352;
+}
+
+h2 {
+    font-family: 'Usual', sans-serif;
+    font-size: 24px;
+    margin: 0 0 24px 0;
+    font-weight: 500;
+    color: #3A4352;
+}
+
+p { 
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    margin: 0 0 24px 0;
+    color: #687386;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.154" height="43.301" viewBox="0 0 38.154 43.301">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #0185fe;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="performance-phone-increase" transform="translate(-0.75 0.758)">
+    <path id="Path_3165" data-name="Path 3165" class="cls-1" d="M24.942,12.359l-1.037-6.19-6.19,1.037" transform="translate(12.235 4.294)"/>
+    <path id="Path_3166" data-name="Path 3166" class="cls-1" d="M29.471,6.169l-6.061,8.5A1.392,1.392,0,0,1,21.463,15l-3.349-2.388a1.4,1.4,0,0,0-1.945.326l-5.488,7.7" transform="translate(6.669 4.294)"/>
+    <path id="Path_3167" data-name="Path 3167" class="cls-1" d="M26.43,26.266v9.4a5.373,5.373,0,0,1-5.373,5.373H7.623A5.373,5.373,0,0,1,2.25,35.669V6.115A5.373,5.373,0,0,1,7.623.742H21.057A5.373,5.373,0,0,1,26.43,6.115" transform="translate(0 0)"/>
+    <line id="Line_260" data-name="Line 260" class="cls-1" x2="24.18" transform="translate(2.25 32.982)"/>
+  </g>
+</svg>

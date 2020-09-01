@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.809" height="48.4" viewBox="0 0 49.809 48.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #0082ff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="natural-disaster-flood-house-wave" transform="translate(1.367 0.75)">
+    <path id="Path_3174" data-name="Path 3174" class="cls-1" d="M.75,21.057A18.194,18.194,0,0,1,12.9,16.5c7.6,0,21.266,12.827,33.418.674" transform="translate(0 16.149)"/>
+    <path id="Path_3175" data-name="Path 3175" class="cls-1" d="M17.42,20.552a14.358,14.358,0,0,0,2.358-8.373,3.8,3.8,0,1,0-7.593,0c0,1.126-1.744.81-2.6-.071a2.6,2.6,0,0,1-.729-1.9A9.782,9.782,0,0,1,18.635.75c13.4,0,11.873,18.329,19.373,23.46" transform="translate(8.313)"/>
+    <path id="Path_3176" data-name="Path 3176" class="cls-1" d="M.75,24.807A18.194,18.194,0,0,1,12.9,20.25c7.6,0,21.266,12.827,33.418.674" transform="translate(0 19.994)"/>
+    <line id="Line_262" data-name="Line 262" class="cls-1" y1="12.004" transform="translate(3.788 23.029)"/>
+    <line id="Line_263" data-name="Line 263" class="cls-1" y2="10.125" transform="translate(15.94 23.029)"/>
+    <path id="Path_3177" data-name="Path 3177" class="cls-1" d="M.75,15.826,9.864,9.75l9.114,6.076" transform="translate(0 9.228)"/>
+  </g>
+</svg>

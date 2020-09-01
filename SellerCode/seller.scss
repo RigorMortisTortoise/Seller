@@ -1,0 +1,470 @@
+$copart-blue: #0D5DB8;
+$lacquer: #0185FE;
+$finish: #E5F3FE;
+$dark-grey: #3A4352;
+$governance: #EBEFF2;
+$body-color: #687386;
+$finance: #B7DEFF;
+$expansion: #60DCBD;
+
+.content-center {
+    width: 75%;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.info-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 80px;
+    padding: 24px;
+      border-radius: 6px;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.08); 
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.08);
+    
+    h2 {
+        color: $dark-grey;
+    }
+    
+    p {
+        color: $body-color;
+        line-height: 2em;
+        max-width: 800px;
+        margin: auto;
+    }
+}
+
+#insurance {
+    background-image: url(content/hubtiles-insurance.jpg);
+}
+
+#fleet {
+    background-image: url(content/hubtiles-fleet.jpg);
+}
+
+#finance {
+    background-image: url(content/hubtiles-finance.jpg);
+}
+
+#rental {
+    background-image: url(content/hubtiles-rental.jpg);
+}
+
+#dealer {
+    background-image: url(content/hubtiles-dealer.jpg);
+}
+
+#sellerapp {
+   background-image: url(content/sellers_devices.png); background-position: 0 250px; background-size: 90%; background-position-x: center;
+}
+
+.hub-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    
+    .hub-item {
+        width: 45%;
+        height: 540px;
+        margin: auto;
+        background-color: white;
+        background-position: -175px -88px;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.08); 
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.08);
+        margin-bottom: 40px;
+        padding: 24px;
+        align-content: center;
+        
+        h1 {
+            text-align: center;
+            margin-top: 16px;
+            color: $dark-grey;
+            font-weight: 600 !important;
+            font-size: 24px;
+        }
+        
+        p {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        
+        .learn-more {
+          justify-content: center;
+            text-align: center;
+            width: 25%;
+            margin: auto;
+            background-color: $copart-blue;
+            padding: 8px;
+            border-radius: 6px;
+            position: relative;
+            animation-timing-function: ease-in-out;
+            animation-duration: .4s;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            &:hover {
+                opacity: 92%;
+            }
+
+        a {
+            text-align: center !important;
+            color: white !important;
+            font-weight: 600 !important;
+            }
+        }
+    }
+}
+
+.seller-hero {
+    height: 350px;
+    width: 100%;
+    background-image: url(content/seller-hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+        h1 {
+        font-size: 32px;
+        color: white;
+        font-weight: 700;
+        padding-top: 120px;
+        margin-left: 80px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        color: white;
+        font-weight: 300;
+        margin-left: 80px;
+    }
+}
+
+.insurance-hero {
+    height: 350px;
+    width: 100%;
+    background-image: url(content/insurance-hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    
+    h1 {
+        font-size: 32px;
+        color: white;
+        font-weight: 700;
+        padding-top: 120px;
+        margin-left: 80px;
+    }
+    
+    h2 {
+        color: white;
+        font-weight: 300;
+        margin-left: 80px;
+    }
+}
+
+.seller-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    background-color: $copart-blue;
+    
+    h3 {
+        font-size: 15px;
+        color: white;
+        font-weight: 600;
+        width: 15%;
+        vertical-align: middle;
+        margin: 8px !important;
+        text-align: center;
+    }
+    
+    a {
+        color: white;
+    }
+}
+
+  .seller-gradient {
+        background: rgb(13,93,184);
+        background: linear-gradient(90deg, rgba(13,93,184,1) 0%, rgba(13,93,184,0.7525385154061625) 50%, rgba(13,93,184,0.39959733893557425) 60%, rgba(13,93,184,0.20351890756302526) 80%, rgba(229,243,254,0) 100%);
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+.insurance-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+    
+    h1 {
+        line-height: 1.6em;
+        margin-bottom: 24px;
+    }
+    
+    p {
+        color: $body-color;
+        line-height: 2em;
+        font-size: 15px !important;
+    }
+    
+    li {
+        color: $copart-blue;
+        line-height: 2em;
+        padding-left: 16px;
+    }
+}
+
+.insurance-item-one {
+    flex: 1;
+    width: 50%;
+    max-width: 500px;
+}
+
+.insurance-item-two {
+    flex: 1;
+    width: 50%;
+}
+
+.tile-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.tile-item {
+    background-color: white;
+    border-radius: 6px;
+    width: 45%;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.08); 
+box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.08);
+    margin-bottom: 40px;
+    
+    img {
+        height: 40%;
+        width: 100% !important;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px 6px 0 0;
+        border: none;
+    }
+    
+    h2 {
+        margin: 24px 0 24px 24px;
+        color: $dark-grey !important;
+        font-weight: 600 !important;
+    }
+    
+    ul {
+        margin-left: 32px;
+        margin-bottom: 24px;
+    }
+    
+    li {
+        padding: 0 24px 0 16px;
+        line-height: 2em;
+        color: $body-color;
+    }
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: auto;
+    
+    h2 {
+        margin-left: 32px;
+        color: $dark-grey !important;
+        font-weight: 500 !important;
+    }
+    
+    .item {
+        width: 45%;
+        border-radius: 6px;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.08); 
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.08);
+        margin-bottom: 40px;
+        padding-bottom: 32px;
+        
+        img {
+            margin-left: 32px;
+            margin-top: 40px;
+            margin: 40px 0 0 32px;
+            
+        }
+        
+        ul {
+            margin-left: 40px;
+            padding-right: 32px;
+        }
+        
+        li {
+            line-height: 2em;
+        }
+        
+        a {
+            margin-left: 32px;
+            font-weight: 600 !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .insurance-flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .seller-navbar {
+    
+    h3 {
+        font-size: 15px;
+        color: white;
+        font-weight: 500;
+        padding: 8px 24px 4px 24px;
+        vertical-align: middle;
+    }
+}
+    
+    .hub-tiles {
+        flex-direction: column;
+        
+        .hub-item {
+            width: 85%;
+            margin: auto;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .seller-navbar {
+        flex-direction: column;
+        
+        h3 {
+            width: 100%;
+            font-weight: 600;
+            padding: 0;
+        }
+    }
+    
+    .tile-flex {
+        flex-direction: column;
+        
+        .tile-item {
+            width: 90%;
+            margin: auto;
+            margin-bottom: 24px;
+        }
+    }
+    
+    .card-flex {
+        flex-direction: column;
+        
+        .item {
+            width: 90%;
+            margin: auto;
+            margin-bottom: 24px;
+        }
+    }
+    
+    .insurance-flex {
+        margin-top: 24px;
+    }
+    
+    .insurance-item-one {
+        width: 75%;
+        margin: auto;
+    }
+    
+    .insurance-item-two {
+        width: 75%;
+        margin: auto;
+    }
+    
+    .insurance-hero {
+        background-position: center center;
+        
+        
+        h1 {
+            text-align: center;
+            margin: 0;
+        }
+        
+        h2 {
+            text-align: center;
+            margin: 0;
+            width: 75%;
+            margin: auto;
+        }
+    }
+    
+    .seller-gradient{
+      background: rgb(13,93,184);
+        background: linear-gradient(180deg, rgba(13,93,184,1) 0%, rgba(13,93,184,0.7525385154061625) 50%, rgba(13,93,184,0.39959733893557425) 60%, rgba(13,93,184,0.20351890756302526) 80%, rgba(229,243,254,0) 100%);
+    }
+    
+    .info-flex {
+        width: 72%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hub-tiles {
+        .hub-item {
+            height: 500px;
+            .learn-more {
+                width: 40%;
+            }
+        }
+    }
+    
+    .seller-hero {
+    
+        h1 {
+        padding-top: 120px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .hub-tiles {
+        .hub-item {
+            height: 400px;
+        }
+    }
+}
